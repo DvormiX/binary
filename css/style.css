@@ -143,15 +143,14 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 34px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-bottom: 35px;
-    letter-spacing: 8.95px;
 }
 
 .title__text {
     flex-basis: 100%;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 8.95px;
+    text-transform: uppercase;
 }
 
 .widget {
@@ -167,9 +166,10 @@
     font-weight: 300;
     line-height: 25.89px;
     margin-bottom: 69px;
+    margin-top: 35px;
 }
 
-.about__row {
+.row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,4 +252,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.portfolio__button {
+    margin-bottom: 62px;
+}
+
+.partners {
+    background: url(../img/bg_patners.jpg) center top #fff no-repeat;
+}
+
+.partners__text {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+}
+
+.partners__row {
+    margin-top: 93px;
+    padding-bottom: 90px;
+}
+
+.partners__logo:not(:last-child) {
+    margin-right: 109px;
 }
